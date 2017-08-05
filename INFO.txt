@@ -1,0 +1,32 @@
+THIS WAS MY PRACTICE FIRST PROJECT IN ASP.NET C# WITH SQL SERVER DATABASE.
+
+IF WANT TO USE MY PROJECT FOLLOWED SOME GUIDLINES.
+
+
+1- Unrar project ....In onlineexam folder u will find sln(solution file) ....double click it.....project will open
+  -Open web.config file ....search for connectionstring and change servername(name shown on server name textbox when you open sql server management studio)
+
+2- Open Sql server  management studio....Create a new database with name "Quiz".......then
+right click on the newly created database(Quiz) and select "New Query" then 
+open Quiz_Functions.sql file(attached in email) and copy content from this sql file and paste it into the
+"New Query window" and select Execute....
+
+
+Do this step for all three sql files...It generate tables,functions and stored procedures.
+?
+
+
+Execution steps:
+
+login --------- login.aspx 
+		username : admin , password:admin
+		username : user , password: user
+login as admin
+then create questions
+then create online test
+
+
+login as user
+start test
+give answer
+result
